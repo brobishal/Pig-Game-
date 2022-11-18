@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color:#FF9494;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.container .main{
+    width:70%;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:100px;
+    background:#FFD1D1;
+}
+
+
+
+.player{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    width:700px;
+    height:100%;
+    padding:20px;
+    background-color:#FFE3E1;
+
+}
+.player-details{
+    text-align:center;
+    font-size:20px;
+}
+.player-details h2{
+    font-size:35px;
+    text-transform:uppercase;
+
+}
+.player-details p{
+    color:#FF9494;
+    padding:20px;
+    font-size:80px;
+}
+
+.player .current{
+    text-align:center;
+    background:#FF9494;
+    color:#fff;
+    padding:10px 30px;
+    font-size:25px;
+    text-transform:uppercase;
+
+}
+
+.btn-group{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:30px;
+}
+.btn{
+    height:50px;
+    width:250px;
+    padding:8px 70px;
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.player--active{
+    background:#FFE6F7;
+}
+
+
+.btn:hover{
+    background:#FF9494;
+    color:#fff;
+}
+
+.btn-group .dice{
+    height:50px;
+    width:50px;
+   
+}
+
+
+.hidden{
+    display:none;
+}
+
+.player--winner{
+    background:#FFF5E4;
+}
